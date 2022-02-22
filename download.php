@@ -19,6 +19,7 @@ $known_mime_types=array(
 "png" => "image/png",
 "jpeg"=> "image/jpg",
 "jpg" => "image/jpg",
+"php" => "text/plain",
 );
 if($mime_type==''){
 $file_extension = strtolower(substr(strrchr($file,"."),1));
